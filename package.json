@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/dionation/git_bootstrap_les_chefs#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.6.3",
     "bootstrap": "^4.2.1"
   }
 }
