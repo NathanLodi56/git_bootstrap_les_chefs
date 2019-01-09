@@ -17,59 +17,63 @@
 
 <body>
 
+    <header class="sec1">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
+             
+    <div class="container">
 
+            <div class="collapse navbar-collapse text-uppercase text-white ml-5" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">menu list</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">team</a>
+                    </li>
+                </ul>
+            </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark ">
-        <!-- fixed-top -->
+            <img src="./images/logo.png" class="img-fluid" alt="Responsive image">
 
-        <div class="collapse navbar-collapse text-uppercase text-white ml-5" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">about us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">menu list</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">team</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact us </a>
+                    </li>
+                </ul>
+            </div>
+
+</div>
+        </nav>
+
+        <div class="container d-flex align-items-center">
+            <div class="text-white text-center mx-auto" id="hulk">
+                <h1>Whatever your <span class="text-uppercase" id="blanc">occasion</span>,<br> <span class="text-uppercase "
+                        id="smaak">taste</span>
+                    makes it one<br><span id="blanc">to remember! <br> <span class="badge badge-pill badge-light text-uppercase">Purchase
+                            theme </span> <span class="badge badge-pill badge-danger text-uppercase"> learn more</span></span>
+                </h1>
+            </div>
         </div>
-
-        <img src="./images/logo.png" class="img-fluid" alt="Responsive image">
-
-        <div class="collapse navbar-collapse text-uppercase" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">reservation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">testimonials</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">contact us </a>
-                </li>
-            </ul>
-        </div>
-
-
-    </nav>
-
-    <!-- <section class="sec1 text-white text-center" id="hulk">
-        <h1>Whatever your <span class="text-uppercase" id="blanc">occasion</span>,<br> <span class="text-uppercase " id="smaak">taste</span>
-            makes it one<br><span id="blanc">to remember! <br> <span class="badge badge-pill badge-light text-uppercase">Purchase
-                    theme </span> <span class="badge badge-pill badge-danger text-uppercase"> learn more</span></span>
-        </h1>
-    </section> -->
-
+    </header>
+    <!-- part2 -->
     <section class="sec2 y-5 pt-5">
-        <div class="container border px-0 ">
+        <div class="container blancsanz border px-0 ">
             <div id="story">
                 <h1 class="pt-5 text-center"><span class="text-nathan">OUR</span> story</h1>
                 <div class="text-center">
@@ -235,16 +239,20 @@
     <!-- Meet our chef section partie 4 (reste les onderline à faire sur les diffrents chef) -->
     <section class="sec4 y-5 pt-5 pb-3">
 
-        <div class="container border pb-5">
+        <div class="container blancsanz border px-0">
             <div id="story">
                 <h1 class="pt-5 text-center"><span class="text-nathan">BOOK</span> Your Story</h1>
                 <div class="text-center">
                     <img src="./images/decoration_line.png" class="img-fluid pb-3" alt="Responsive image">
                 </div>
-            </div>
-            <div class="bookstory w-75 mx-auto p-5 rounded">
-                <h5 class="text-center text-white pt-3 pb-5">For any query please call us at: <strong class="">+91-1234567890</strong>
-                    </h6>
+                <img src="./images/box-left-top-grey.png" class="img-fluid" alt="Responsive image" id="box1-grey">
+                <img src="./images/box-right-top-grey.png" class="img-fluid" alt="Responsive image" id="box2-grey">
+                <img src="./images/box-bottom-left-grey.png" class="img-fluid" alt="Responsive image" id="box3-grey">
+                <img src="./images/box-bottom_right-grey.png" class="img-fluid" alt="Responsive image" id="box4-grey">
+
+                <div class="bookstory w-75 mx-auto p-5 rounded">
+                    <h5 class="text-center text-white pt-3 pb-5">For any query please call us at: <strong class="">+91-1234567890</strong>
+                    </h5>
                     <form>
                         <div class="row">
                             <div class="col-12 col-lg-6 mb-4">
@@ -276,26 +284,39 @@
                             </div>
                             <div class="col-12 col-lg-6 mb-4">
                                 <input type="text" class="form-control w-75 mr-auto" placeholder="Last name">
-
-
                             </div>
                             <button type="button" class="mx-auto text-white badge-pill badge-nathan breeh">BOOK NOW</button>
                         </div>
-
                     </form>
+                </div>
 
-
-            </div>
-
-            <div id="story text-center">
                 <h1 class="pt-5 text-center"><span class="text-nathan">OUR</span> Blog</h1>
                 <div class="text-center">
                     <img src="./images/decoration_line.png" class="img-fluid pb-3" alt="Responsive image">
                 </div>
 
-                <div class="text-center breeh2">
-                    <img src="./images/blog_img1.jpg" class="img-fluid mr-2 mt-4" alt="Responsive image">
-                    <img src="./images/blog_img2.jpg" class="img-fluid ml-2 mt-4" alt="Responsive image">
+                <div class="row text-center">
+                    <div class=" col-12 col-lg-6">
+                        <div class="text-center breeh2">
+                            <img src="./images/blog_img1.jpg" class="img-fluid mr-2 mt-4" alt="Responsive image">
+                            <h5 class="test bg-nathan m-auto text-white"> <strong>12</strong>April 2017/<strong> 20</strong>comment/<strong>35</strong>Likes</h5>
+                            <div>
+                            <p><Strong>Lorem ipsum</Strong></p>
+                            <p> Lorem Ipsum is simply dummy text of the priting and typesetting industry</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                <div class=" col-12 col-lg-6">
+                    <div class="text-center breeh2">
+                        <img src="./images/blog_img2.jpg" class="img-fluid ml-2 mt-4" alt="Responsive image">
+                        <h5 class="test bg-nathan m-auto text text-white"> <strong>12</strong>April 2017/<strong>20 </strong>comment/<strong>35</strong>Likes</h5>
+                        <div>
+                        <p><strong>Lorem ipsum</strong></p>
+                        <p> Lorem Ipsum is simply dummy text of the priting and typesetting industry</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

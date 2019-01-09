@@ -15189,6 +15189,38 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
+/*!
+ * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../webfonts/fa-brands-400.eot");
+  src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+/*!
+ * Font Awesome Free 5.6.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../webfonts/fa-solid-900.eot");
+  src: url("../webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-solid-900.woff2") format("woff2"), url("../webfonts/fa-solid-900.woff") format("woff"), url("../webfonts/fa-solid-900.ttf") format("truetype"), url("../webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+.fa,
+.fas {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+
 #navbarNav {
   padding-left: 5.5em;
   padding-right: 5.5em;
@@ -15239,7 +15271,7 @@ h1 {
   background-repeat: repeat;
 }
 
-.container {
+.blancsanz {
   background-color: #ffffff;
 }
 
@@ -15344,6 +15376,9 @@ h4 {
   padding-bottom: 1%;
 }
 
+.breeh2 {
+  padding-bottom: 129px;
+}
 .breeh2 img {
   border-radius: 30px;
   border: 3px solid #cbcbcb;
@@ -15371,6 +15406,15 @@ h4 {
   position: absolute;
   bottom: 0px;
   right: 0px;
+}
+
+.test {
+  max-width: 35%;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 0.7cm;
+  left: 2, 5cm;
 }
 
 /*# sourceMappingURL=style.css.map */
